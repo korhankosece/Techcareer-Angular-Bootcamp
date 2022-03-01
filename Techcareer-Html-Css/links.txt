@@ -1,0 +1,29 @@
+--En çok kullanılan selectorler
+https://code.tutsplus.com/tr/tutorials/the-30-css-selectors-you-must-memorize--net-16048
+
+--CSS ve HTML için genel incelenebilecek dökümanlar
+https://www.w3schools.com/css/
+https://developer.mozilla.org/en-US/docs/Web/CSS?retiredLocale=tr
+https://css-tricks.com/
+
+--CSS Uzunluk birimleri
+https://medium.com/baakademi/cssde-%C3%B6l%C3%A7%C3%BC-ve-uzunluk-birimleri-6563c2ee9853
+
+--Box Model
+https://www.w3schools.com/css/css_boxmodel.asp
+https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model
+https://css-tricks.com/the-css-box-model/
+
+--Display 
+https://css-tricks.com/almanac/properties/d/display/
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Display
+
+--Position
+https://css-tricks.com/almanac/properties/p/position/
+https://www.w3schools.com/css/css_positioning.asp
+https://developer.mozilla.org/en-US/docs/Web/CSS/position
+
+--Youtube video içerikleri
+(Adem ilter 0'dan css eğitim serisi izlenebilir)
+Kutu modeli
+https://www.youtube.com/watch?v=dTUtsy54eP0&list=PLadt0EaV4m3BX9JaZbKS9B8076bruv93Y&index=8

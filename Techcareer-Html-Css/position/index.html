@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div>
+        <select id="position">
+            <option selected>static</option>
+            <option>relative</option>
+            <option>absolute</option>
+            <option>fixed</option>
+            <option>sticky</option>
+        </select>
+    </div>
+    
+    <div class="main">
+        <div class="box"></div>
+    </div>
+</body>
+<script>
+    const element = document.querySelector('.box');
+    const select = document.querySelector('select')
+
+    function onChange(e) {
+        const val = e.target.value;
+        element.style.position = val;
+    }
+
+    select.addEventListener('change', onChange)
+
+    onChange();
+</script>
+
+</html>

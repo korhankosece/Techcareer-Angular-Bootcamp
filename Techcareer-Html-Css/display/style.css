@@ -1,0 +1,19 @@
+p {
+    display: inline;
+}
+
+span {
+    display: block;
+}
+
+.box1 {
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+}
+
+.box2 {
+    width: 50px;
+    height: 50px;
+    background-color: greenyellow;
+}

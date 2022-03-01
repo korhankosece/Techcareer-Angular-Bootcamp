@@ -1,0 +1,8 @@
+#header {
+    background-color: rgba(168, 98, 98, 0.5);
+    font-size: 26px;
+}
+
+.text {
+    text-decoration: line-through;
+}
