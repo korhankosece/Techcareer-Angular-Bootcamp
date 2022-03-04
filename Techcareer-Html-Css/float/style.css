@@ -1,0 +1,53 @@
+/* .inline-block div {
+    display: inline-block;
+    background-color: bisque;
+}
+
+.ib-font{
+    font-size: 0;
+}
+
+.ib-font div{
+    display: inline-block;
+    background-color: bisque;
+}
+
+.ib-font div{
+    font-size: 20px;
+} */
+
+.float{
+    background-color: black;
+}
+
+.float div {
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.float div:first-child{
+    background-color: blanchedalmond;
+}
+
+.float div:nth-child(2){
+    background-color: red;
+   
+}
+
+.float div:nth-child(3){
+    background-color: yellowgreen;
+    height: 125px;
+}
+
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+

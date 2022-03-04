@@ -1,0 +1,59 @@
+* {
+    list-style: none;
+}
+
+.cf:before,
+.cf:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    background-color: #333333;
+    border-radius: 12px;
+}
+
+ul li {
+    float: left;
+    padding: 1rem 0;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 1rem 1rem;
+}
+
+ul li:last-child {
+    color: white;
+    float: right;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    margin-right: 1rem;
+}
+
+ul li:hover {
+    background-color: #111;
+
+}
+
+ul li:first-child {
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+.active {
+    background: red;
+}
+
+i {
+    font-size: 14px;
+}

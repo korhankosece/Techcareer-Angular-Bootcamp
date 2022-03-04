@@ -1,0 +1,27 @@
+.box-1{
+    width: 300px;
+    border: 1px solid red;
+    margin: 1rem auto;
+}
+
+.box-2{
+    max-width: 300px;
+    border: 1px solid red;
+    margin: 1rem auto;
+}
+
+.box-1 p{
+    margin: auto;
+    text-align: center;
+    text-align: end;
+}
+
+.box-3{
+    width: 10rem;
+    height: 5rem;
+    background-color: aquamarine;
+
+    overflow: hidden;
+    /* overflow: scroll; */
+    overflow-y: scroll;
+}

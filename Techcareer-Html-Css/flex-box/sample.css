@@ -1,0 +1,49 @@
+* {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    background-color: #111111;
+    justify-content: space-between;
+    padding: 0 2rem;
+}
+
+.first-content {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    padding: 2rem 0;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 2rem 1rem;
+    text-transform: uppercase;
+}
+
+li a:hover {
+    background-color: hsla(0, 0%, 100%, .1);
+    color: #ff7a18;
+}
+
+.second-content {
+    background-color: white;
+    border-radius: 50%;
+}
+
+i {
+    font-size: 25px;
+    padding: 0.7rem;
+}
