@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&family=Roboto:wght@400;700&display=swap');
+@import url('./extra.css');
+
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('./fonts/Roboto-Regular.woff') format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('./fonts/Roboto-Bold.woff') format("woff");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('./fonts/Roboto-Italic.woff') format("woff");
+    font-weight: normal;
+    font-style: italic;
+}
+
+:root {
+    --primary-color: red;
+    --primary-font: 20px;
+}
+
+.box-shadow {
+    width: 200px;
+    height: 200px;
+    background-color: var(--primary-color);
+    box-shadow: 5px 5px 5px black;
+}
+
+* {
+    font-family: Roboto, sans-serif;
+}
+
+.shadow {
+    /* text-shadow: 1px 1px red; */
+    text-shadow: 1px 1px 1px red;
+    text-shadow: 1px 1px 1px red, 1px 1px 1px yellow;
+    font-weight: bold;
+    font-style: italic;
+    font-size: var(--primary-font);
+}
+
+.local {
+    --primary-color: blue;
+    color: var(--primary-color);
+}
+
+.calc {
+    width: calc(100% - 200px);
+    margin: auto;
+}
