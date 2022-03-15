@@ -1,0 +1,16 @@
+JS veri tipleri 
+https://medium.com/baakademi/javascript-veri-tipleri-e284ead1a6a9,
+
+Referans vs primitif tipler
+https://gurolayanlar.com/reference-primitive-degerler-tipler/
+
+ES6 yenilikler 
+https://www.youtube.com/watch?v=Vp4K03xWsgE
+
+JS ES6 array methods
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array?retiredLocale=tr
+https://www.w3schools.com/jsref/jsref_obj_array.asp
+https://www.youtube.com/watch?v=R8rmfD9Y5-c
+
+array methodlar ve mutate özellikleri
+https://doesitmutate.xyz
