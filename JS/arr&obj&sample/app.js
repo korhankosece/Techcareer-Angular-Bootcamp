@@ -999,8 +999,11 @@ products.forEach((product, index) => {
     // }
 })
 
-
 const newArr = products.map((product) => {
+    //Map  returnünde her zaman length kadar item döndürür !! (koşula uymazsa undefined)
+    // if (product.id === 4) {
+    //     return product
+    // }
     product.unitPrice = product.unitPrice * 2
     return product
 })
@@ -1021,5 +1024,53 @@ products.forEach(product => {
 
 const _product = products.sort((a, b) => a.unitPrice - b.unitPrice).reverse()[0]
 
-console.log(_product);
-console.log(maxProduct);
+// console.log(_product);
+// console.log(maxProduct);
+
+//PRIMITIVE VS REFERENCE
+
+let age = 2;
+let _age = 2;
+
+console.log(age === _age);
+
+let obj = {
+    name: 'Korhan',
+    isDeleted: true
+}
+
+let _obj = {
+    name: 'Korhan',
+    isDeleted: true
+}
+
+// console.log(obj === _obj);
+
+
+//obje adresi değişmemesi 
+let newAge = age;
+
+newAge = 3
+console.log(age);
+console.log(newAge);
+
+let newObj = obj
+newObj.name = 'Ali'
+
+console.log(obj);
+console.log(newObj);
+
+
+//product category nameleri yazdır
+products.forEach(product => {
+    // if (product.category !== undefined && product.category !== null && product.category !== '') {
+    //     console.log(product.category.name);
+    // }
+
+    // if (product.category) {
+    //     console.log(product.category.name);
+    // }
+
+    // product.category ? console.log(product.category.name) : ''
+    // product.category && console.log(product.category.name)
+})
