@@ -39,14 +39,23 @@ $(document).ready(function () {
         //         console.log('Supplier post error', error);
         //     }
         // })
-        const data = { companyName: 'Asus', contactName: 'Bruce' }
-        $.post('https://northwind.vercel.app/api/suppliers', data,
-            function (data, status) {
+        // const data = { companyName: 'Asus', contactName: 'Bruce' }
+        // $.post('https://northwind.vercel.app/api/suppliers', data,
+        //     function (data, status) {
+        //         console.log(data, status);
+        //     }).fail(function (error) {
+        //         console.log(error);
+        //     })
+
+        $.ajax({
+            url: 'https://northwind.vercel.app/api/suppliers/4',
+            type: 'DELETE',
+            success: function (data, status) {
                 console.log(data, status);
-            }).fail(function (error) {
+            },
+            error: function (error) {
                 console.log(error);
-            })
+            }
+        })
     })
-
-
 })
